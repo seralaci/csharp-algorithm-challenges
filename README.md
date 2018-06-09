@@ -2,5 +2,5 @@
 
 ## LeetCode
 
-[Two Sum](LeetCode/Challenges.LeetCode/TwoSum/README.md)
+[Two Sum](LeetCode/Challenges.LeetCode/TwoSum/)
 
