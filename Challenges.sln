@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode", "LeetCode", "{58997D36-82E5-48C5-A57F-9A83DEF656C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenges.LeetCode", "LeetCode\Challenges.LeetCode\Challenges.LeetCode.csproj", "{4E839389-95F5-4EE8-B3CB-56E4581D2D79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenges.LeetCode.Tests", "LeetCode\Challenges.LeetCode.Tests\Challenges.LeetCode.Tests.csproj", "{9F89913B-52AD-4184-B6B5-C5E3A39E9BAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenges.LeetCode.Tests.Performance", "LeetCode\Challenges.LeetCode.Tests.Performance\Challenges.LeetCode.Tests.Performance.csproj", "{874DB6B4-C74E-4B5C-AA0F-C878F21BD149}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E839389-95F5-4EE8-B3CB-56E4581D2D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E839389-95F5-4EE8-B3CB-56E4581D2D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E839389-95F5-4EE8-B3CB-56E4581D2D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E839389-95F5-4EE8-B3CB-56E4581D2D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F89913B-52AD-4184-B6B5-C5E3A39E9BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F89913B-52AD-4184-B6B5-C5E3A39E9BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F89913B-52AD-4184-B6B5-C5E3A39E9BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F89913B-52AD-4184-B6B5-C5E3A39E9BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874DB6B4-C74E-4B5C-AA0F-C878F21BD149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874DB6B4-C74E-4B5C-AA0F-C878F21BD149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874DB6B4-C74E-4B5C-AA0F-C878F21BD149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874DB6B4-C74E-4B5C-AA0F-C878F21BD149}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E839389-95F5-4EE8-B3CB-56E4581D2D79} = {58997D36-82E5-48C5-A57F-9A83DEF656C9}
+		{9F89913B-52AD-4184-B6B5-C5E3A39E9BAC} = {58997D36-82E5-48C5-A57F-9A83DEF656C9}
+		{874DB6B4-C74E-4B5C-AA0F-C878F21BD149} = {58997D36-82E5-48C5-A57F-9A83DEF656C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3A501E9-EF8D-46E1-A479-F6ED5B97B623}
+	EndGlobalSection
+EndGlobal

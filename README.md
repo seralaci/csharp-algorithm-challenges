@@ -1,2 +1,6 @@
-# Algorithms, data structures and coding challenges in C#
+# Algoritmusok, adatstruktúrák és kódolási kihívások C#-ban
+
+## LeetCode
+
+[Two Sum](LeetCode/Challenges.LeetCode/TwoSum/README.md)
 
