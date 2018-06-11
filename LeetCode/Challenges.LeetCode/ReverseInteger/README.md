@@ -8,7 +8,7 @@ Given a 32-bit signed integer, reverse digits of an integer.
 > **Output**: 321 
 
 **Example 2:**
-> **Input**: -123
+> **Input**: -123  
 > **Output**: -321   
 
 **Example 3:**

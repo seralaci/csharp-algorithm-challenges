@@ -5,7 +5,7 @@ namespace Challenges.LeetCode.Tests.Performance
 {
     public class ReverseInteger : BenchmarkBase
     {
-        [Benchmark(Description = "PalindromeNumber.ReverseInteger")]
+        [Benchmark(Description = "ReverseInteger.Solution")]
         public int Solution()
         {
             var solution = new Solution();
