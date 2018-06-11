@@ -7,9 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode", "LeetCode", "{58
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenges.LeetCode", "LeetCode\Challenges.LeetCode\Challenges.LeetCode.csproj", "{4E839389-95F5-4EE8-B3CB-56E4581D2D79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenges.LeetCode.Tests", "LeetCode\Challenges.LeetCode.Tests\Challenges.LeetCode.Tests.csproj", "{9F89913B-52AD-4184-B6B5-C5E3A39E9BAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenges.LeetCode.Tests", "LeetCode\Challenges.LeetCode.Tests\Challenges.LeetCode.Tests.csproj", "{9F89913B-52AD-4184-B6B5-C5E3A39E9BAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenges.LeetCode.Tests.Performance", "LeetCode\Challenges.LeetCode.Tests.Performance\Challenges.LeetCode.Tests.Performance.csproj", "{874DB6B4-C74E-4B5C-AA0F-C878F21BD149}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenges.LeetCode.Tests.Performance", "LeetCode\Challenges.LeetCode.Tests.Performance\Challenges.LeetCode.Tests.Performance.csproj", "{874DB6B4-C74E-4B5C-AA0F-C878F21BD149}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C65493B-2ED4-4C64-827B-D7061CA9E19E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
