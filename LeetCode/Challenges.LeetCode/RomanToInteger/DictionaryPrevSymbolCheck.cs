@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Challenges.LeetCode.RomanToInteger
 {
     public class DictionaryPrevSymbolCheck
     {
-        private static Dictionary<char, int> RomanSymbols = new Dictionary<char, int> {
+        private static readonly Dictionary<char, int> RomanSymbols = new Dictionary<char, int> {
             {'I', 1},
             {'V', 5},
             {'X', 10},
@@ -23,11 +22,11 @@ namespace Challenges.LeetCode.RomanToInteger
             foreach(var symbol in s) {
                 var symbolValue = RomanSymbols[symbol];
 
+                result += symbolValue;
                 // If the symbol value is larger than the previous one, then it's a compound symbol 
-                if (symbolValue > lastSymbolValue) {
-                    result += symbolValue - 2 * lastSymbolValue;
-                } else {
-                    result += symbolValue;        
+                if (symbolValue > lastSymbolValue)
+                {
+                    result -= 2 * lastSymbolValue;
                 }
 
                 lastSymbolValue = symbolValue;

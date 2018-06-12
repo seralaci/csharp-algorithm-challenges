@@ -5,6 +5,9 @@ namespace Challenges.LeetCode.Tests.Performance
 {
     public class RomanToInteger : BenchmarkBase
     {
+        [Params("MCMXCIV", "MMMCMXCIX", "LVIII")]
+        public string Input { get; set; }
+
         [Benchmark(Description = "RomanToInteger.BruteForce")]
         public int BruteForce()
         {
@@ -25,7 +28,5 @@ namespace Challenges.LeetCode.Tests.Performance
             var solution = new DictionaryNextSymbolCheck();
             return solution.RomanToInt(Input);
         }
-
-        private const string Input = "MCMXCIV";
     }
 }

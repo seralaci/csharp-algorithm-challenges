@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Challenges.LeetCode.RomanToInteger
 {
     public class DictionaryNextSymbolCheck
     {
-        private static Dictionary<char, int> RomanSymbols = new Dictionary<char, int> {
+        private static readonly Dictionary<char, int> RomanSymbols = new Dictionary<char, int> {
             {'I', 1},
             {'V', 5},
             {'X', 10},

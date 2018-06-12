@@ -5,6 +5,9 @@ namespace Challenges.LeetCode.Tests.Performance
 {
     public class PalindromeNumber : BenchmarkBase
     {
+        [Params(789544123, 12321, int.MaxValue)]
+        public int X { get; set; }
+
         [Benchmark(Description = "PalindromeNumber.Reverse")]
         public bool Reverse()
         {
@@ -18,7 +21,5 @@ namespace Challenges.LeetCode.Tests.Performance
             var solution = new CompareLastAndFirst();
             return solution.IsPalindrome(X);
         }
-
-        private const int X = 789544123;
     }
 }
