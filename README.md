@@ -3,7 +3,7 @@
 ## LeetCode
 
 | #   | Title                                                                       |
-|-----|-----------------------------------------------------------------------------|
+|-----|:----------------------------------------------------------------------------|
 | 1.  | [Two Sum](LeetCode/Challenges.LeetCode/TwoSum/)                             |
 | 7.  | [Reverse Integer](LeetCode/Challenges.LeetCode/ReverseInteger/)             |
 | 9.  | [Palindrome Number](LeetCode/Challenges.LeetCode/PalindromeNumber/)         |
