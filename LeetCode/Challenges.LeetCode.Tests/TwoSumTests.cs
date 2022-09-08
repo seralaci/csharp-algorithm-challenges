@@ -21,10 +21,10 @@ public class TwoSumTests
         // Arrange 
         var solution = new BruteForce();
 
-        //Assert
+        // Act
         var result = solution.TwoSum(input, target);
 
-        //Assert
+        // Assert
         Assert.Equal(output, result);
     }
 
@@ -35,10 +35,10 @@ public class TwoSumTests
         // Arrange 
         var solution = new OnePassDictionary();
 
-        //Assert
+        // Act
         var result = solution.TwoSum(input, target);
 
-        //Assert
+        // Assert
         Assert.Equal(output, result);
     }
 }

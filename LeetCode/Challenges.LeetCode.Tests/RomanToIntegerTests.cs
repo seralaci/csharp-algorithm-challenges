@@ -33,10 +33,10 @@ public class RomanToIntegerTests
         // Arrange 
         var solution = new BruteForce();
 
-        //Assert
+        // Act
         var result = solution.RomanToInt(input);
 
-        //Assert
+        // Assert
         Assert.Equal(expectedResult, result);
     }
 
@@ -47,10 +47,10 @@ public class RomanToIntegerTests
         // Arrange 
         var solution = new DictionaryPrevSymbolCheck();
 
-        //Assert
+        // Act
         var result = solution.RomanToInt(input);
 
-        //Assert
+        // Assert
         Assert.Equal(expectedResult, result);
     }
 
@@ -61,10 +61,10 @@ public class RomanToIntegerTests
         // Arrange 
         var solution = new DictionaryNextSymbolCheck();
 
-        //Assert
+        // Act
         var result = solution.RomanToInt(input);
 
-        //Assert
+        // Assert
         Assert.Equal(expectedResult, result);
     }
 }

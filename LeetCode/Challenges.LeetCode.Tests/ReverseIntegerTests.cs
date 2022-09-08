@@ -25,10 +25,10 @@ public class ReverseIntegerTests
         // Arrange 
         var solution = new Solution();
 
-        //Assert
+        // Act
         var result = solution.Reverse(input);
 
-        //Assert
+        // Assert
         Assert.Equal(expectedResult, result);
     }
 }

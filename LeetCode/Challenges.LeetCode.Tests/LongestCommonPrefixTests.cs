@@ -23,10 +23,10 @@ public class LongestCommonPrefixTests
         // Arrange 
         var solution = new BruteForce();
 
-        //Assert
+        // Act
         var result = solution.LongestCommonPrefix(input);
 
-        //Assert
+        // Assert
         Assert.Equal(output, result);
     }
 
@@ -37,10 +37,10 @@ public class LongestCommonPrefixTests
         // Arrange 
         var solution = new SortedByLength();
 
-        //Assert
+        // Act
         var result = solution.LongestCommonPrefix(input);
 
-        //Assert
+        // Assert
         Assert.Equal(output, result);
     }
 }

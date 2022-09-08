@@ -27,10 +27,10 @@ public class PalindromeNumberTests
         // Arrange 
         var solution = new Reverse();
 
-        //Assert
+        // Act
         var result = solution.IsPalindrome(input);
 
-        //Assert
+        // Assert
         Assert.Equal(expectedResult, result);
     }
 
@@ -41,10 +41,10 @@ public class PalindromeNumberTests
         // Arrange 
         var solution = new CompareLastAndFirst();
 
-        //Assert
+        // Act
         var result = solution.IsPalindrome(input);
 
-        //Assert
+        // Assert
         Assert.Equal(expectedResult, result);
     }
 }

@@ -27,10 +27,10 @@ public class ValidParenthesesTests
         // Arrange 
         var solution = new StackBased();
 
-        //Assert
+        // Act
         var result = solution.IsValid(input);
 
-        //Assert
+        // Assert
         Assert.Equal(expected, result);
     }
 }
