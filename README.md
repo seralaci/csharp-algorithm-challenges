@@ -12,6 +12,7 @@
 | 20.  | [Valid Parentheses](LeetCode/Challenges.LeetCode/ValidParentheses/)                                        | Easy       |
 | 21.  | [Merge Two Sorted Lists](LeetCode/Challenges.LeetCode/MergeTwoSortedLists/)                                | Easy       |
 | 34.  | [Find First and Last Position of Element in Sorted Array](LeetCode/Challenges.LeetCode/FirstLastPosition/) | Medium     |
+| 215  | [Kth Largest Element in an Array](LeetCode/Challenges.LeetCode/KthLargestElement/)                         | Medium     |
 | 242. | [Valid Anagram](LeetCode/Challenges.LeetCode/ValidAnagram/)                                                | Easy       |
 
 
